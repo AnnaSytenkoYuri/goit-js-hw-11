@@ -1,0 +1,52 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
+  margin-top: 32px;
+}
+
+.gallery-item {
+  text-decoration: none;
+}
+.cart-item {
+  width: 360px;
+  overflow: hidden;
+  border: 1px solid #808080;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  gap: 24px;
+  padding: 12px;
+}
+
+.info-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.info-item b {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
